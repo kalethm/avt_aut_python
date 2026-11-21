@@ -1,0 +1,52 @@
+{
+  "api": {
+    "base_url": "https://pokeapi.co/api/v2",
+    "timeout": 30
+  },
+  "web": {
+    "base_url": "https://example.com",
+    "browser": "chrome",
+    "headless": false,
+    "implicitly_wait": 10,
+    "explicitly_wait": 20
+  },
+  "appium": {
+    "server_url": "http://127.0.0.1:4723/wd/hub",
+    "platform_name": "Android",
+    "automation_name": "UiAutomator2",
+    "no_reset": true,
+    "full_reset": false,
+    "new_command_timeout": 120
+  },
+  "adb": {
+    "path": "adb",
+    "timeout": 30
+  },
+  "jira": {
+    "enabled": false,
+    "base_url": "",
+    "project": "",
+    "issue_type": "Bug",
+    "labels": ["qa-automation"],
+    "timeout": 30
+  },
+  "alm": {
+    "enabled": false,
+    "base_url": "",
+    "project": "",
+    "timeout": 30,
+    "status_map": {
+      "passed": 1,
+      "blocked": 2,
+      "untested": 3,
+      "retest": 4,
+      "failed": 5
+    }
+  },
+  "reports": {
+    "output_dir": "output",
+    "screenshot_on_failure": true,
+    "cucumber_report": true,
+    "html_report": true
+  }
+}

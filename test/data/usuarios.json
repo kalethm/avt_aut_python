@@ -1,0 +1,17 @@
+[
+  {
+    "usuario": "admin",
+    "clave": "admin123",
+    "esperado": "Bienvenido"
+  },
+  {
+    "usuario": "cajero01",
+    "clave": "cajero123",
+    "esperado": "Bienvenido"
+  },
+  {
+    "usuario": "invalido",
+    "clave": "xxxx",
+    "esperado": "Credenciales incorrectas"
+  }
+]

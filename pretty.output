@@ -1,0 +1,20 @@
+@ID_WEB
+Característica: Web - Practice Form de DemoQA # test/features/web/practice_form.feature:3
+  Como QA
+  Quiero diligenciar el formulario de registro de estudiantes
+  Para validar el comportamiento del portal demoqa.com
+  @practice_form
+  Escenario: Enviar el formulario sin móvil muestra el campo como inválido                  # test/features/web/practice_form.feature:9
+    Dado que abro el formulario de registro de estudiantes                                  # test/steps/practice_form_steps.py:20
+    Cuando completo el formulario con los datos del json 'settings/data/practice_form.json' # test/steps/practice_form_steps.py:25
+    Y envío el formulario de registro                                                       # test/steps/practice_form_steps.py:36
+    Entonces el campo 'Mobile' se marca como inválido                                       # test/steps/practice_form_steps.py:41
+    Y el formulario no se envía                                                             # test/steps/practice_form_steps.py:53
+
+  @practice_form_ok
+  Escenario: Enviar el formulario completo muestra el modal de confirmación                    # test/features/web/practice_form.feature:17
+    Dado que abro el formulario de registro de estudiantes                                     # test/steps/practice_form_steps.py:20
+    Cuando completo el formulario con los datos del json 'settings/data/practice_form_ok.json' # test/steps/practice_form_steps.py:25
+    Y envío el formulario de registro                                                          # test/steps/practice_form_steps.py:36
+    Entonces el formulario se envía correctamente                                              # test/steps/practice_form_steps.py:59
+

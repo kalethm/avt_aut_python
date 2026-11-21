@@ -1,0 +1,22 @@
+{
+  "formulario": "Student Registration Form",
+  "url": "https://demoqa.com/automation-practice-form",
+  "estudiante": {
+    "first_name": "kaleth",
+    "last_name": "barrios",
+    "email": "",
+    "gender": "Other",
+    "mobile": "",
+    "date_of_birth": "21 Nov 2026",
+    "subjects": [],
+    "hobbies": ["Sports", "Reading", "Music"],
+    "picture": "",
+    "current_address": "dsad",
+    "state": "Haryana",
+    "city": "Panipat"
+  },
+  "resultado_esperado": {
+    "submit_exitoso": false,
+    "campo_invalido": "Mobile"
+  }
+}

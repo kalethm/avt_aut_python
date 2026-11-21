@@ -1,0 +1,11 @@
+{
+  "enabled": true,
+  "base_url": "https://avattar-cl.atlassian.net",
+  "project": "GTMS",
+  "test_plan": "GTMS-23",
+  "issue_type": "Bug",
+  "labels": ["qa-automation"],
+  "timeout": 30,
+  "user": "",
+  "token": ""
+}

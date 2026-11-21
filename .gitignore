@@ -1,0 +1,13 @@
+.idea
+.vscode/
+__pycache__
+debug.log
+venv
+.venv/
+.env
+download
+downloads
+output/
+temp
+*.db
+node_modules

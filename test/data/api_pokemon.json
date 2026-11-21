@@ -1,0 +1,14 @@
+[
+  {
+    "path": "pokemon/pikachu",
+    "status": 200,
+    "clave": "name",
+    "tipo": "str"
+  },
+  {
+    "path": "pokemon/bulbasaur",
+    "status": 200,
+    "clave": "id",
+    "tipo": "int"
+  }
+]
